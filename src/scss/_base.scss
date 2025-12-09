@@ -17,6 +17,10 @@ video {
 
 .container {
   margin-top: 200px;
+  margin: 50px;
+  border: 4px solid orange;
+  background: white;
+  padding: 20px;
 }
 
 p {
@@ -27,6 +31,25 @@ p {
   font-weight: 700;
   line-height: normal;
 }
+
+/// Section
+
+.sectionbootstrap {
+  background-color: lightgoldenrodyellow;
+  padding: 50px 0px;
+}
+
+.sectionflex {
+  background: lightpink;
+  padding: 50px 20px;
+}
+
+.sectionposition {
+  background: #f7d9fb;
+  padding: 50px 20px;
+}
+
+//// Bootstrap
 
 .col {
   display: flex;
@@ -41,15 +64,7 @@ p {
   margin-top: 10px;
 }
 
-.sectionbootstrap {
-  background-color: lightgoldenrodyellow;
-  padding: 50px 0px;
-}
-
-.sectionflex {
-  background: lightpink;
-  padding: 50px 20px;
-}
+//// Flex-box
 
 .boite {
   display: flex;
@@ -139,4 +154,80 @@ p {
   background: #ef5151;
   display: flex;
   flex-grow: 3;
+}
+
+//// Position CSS
+
+.container_css {
+  background-color: #fff;
+  border: 4px solid purple;
+  max-width: 800px;
+  margin: 150px auto;
+}
+
+.position_boite1 {
+  background: #b96ee1;
+  display: flex;
+  width: 658px;
+  height: 328px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.position_boite2 {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  background: #ffa8db;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.position_boite3 {
+  background: #ef9851;
+  display: flex;
+  width: 658px;
+  height: 328px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/// Comment faire monter le 3
+
+.position_boite4 {
+  background: #ffa8db;
+  display: flex;
+  width: 300px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 16px;
+  bottom: 10px;
+}
+
+.position_boite5 {
+  background: #efcd51;
+  display: flex;
+  width: 658px;
+  height: 328px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.position_boite6 {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 150px;
+  background: #95c4d7;
+  position: absolute;
 }
